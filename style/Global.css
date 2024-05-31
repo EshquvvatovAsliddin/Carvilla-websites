@@ -1,1 +1,173 @@
-/*# sourceMappingURL=Global.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(7, 44, 100);
+  padding-bottom: 200px;
+}
+
+.header {
+  font-family: Poppins, sans-serif;
+  background-color: #808080;
+  height: 964px;
+}
+.header nav {
+  display: grid;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 25px;
+}
+.header nav .logo-carvilla {
+  font-size: 30px;
+  text-decoration: none;
+  letter-spacing: 7px;
+  font-family: Rufina, sans;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.header nav .container {
+  display: grid;
+  gap: 400px;
+  margin-top: 30px;
+  grid-template-columns: auto auto;
+}
+.header nav .nav_right ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 30px;
+  text-transform: uppercase;
+}
+.header nav .nav_right ul li,
+.header nav .nav_right ul a {
+  font-size: 15.5px;
+  text-decoration: none;
+}
+.header nav .nav_right ul li:hover,
+.header nav .nav_right ul li :active,
+.header nav .nav_right ul a:hover,
+.header nav .nav_right ul a :active {
+  color: #4e4ffa;
+  transition: 0.55s;
+  transition: 530ms;
+}
+.header * {
+  color: white;
+}
+.header .landing-page-info {
+  text-align: center;
+  padding-top: 150px;
+}
+.header .landing-page-info h3 {
+  font-size: 42px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+.header .landing-page-info p {
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: Poppins, sans-serif;
+  line-height: 25px;
+}
+.header .landing-page-info button {
+  background-color: #4e4ffa;
+  color: white;
+  width: 230px;
+  height: 60px;
+  border: none;
+  border-radius: 3px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  margin-top: 43px;
+}
+@media only screen and (max-width: 1310px) {
+  .header nav .container {
+    gap: 0 !important;
+  }
+  .header .nav_left {
+    margin-left: 5%;
+  }
+  .header .nav_left a {
+    font-size: 70px;
+  }
+  .header .nav_right ul {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .header .nav_left {
+    margin-left: 5%;
+  }
+  .header .nav_left a {
+    font-size: 40px;
+  }
+  .header .landing-page-info h3 {
+    font-size: 30px;
+  }
+  .header .landing-page-info button {
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
+
+.main {
+  width: 100%;
+}
+.main article {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: black;
+  background-color: white;
+}
+.main article .mini-container-for-article {
+  display: grid;
+  width: 1140px !important;
+  padding: 40px;
+  padding-right: 170px !important;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: -190px;
+  box-shadow: 0 10px 40px 0 rgba(38, 40, 64, 0.2);
+  grid-template-columns: auto auto auto;
+  -moz-column-gap: 150px;
+       column-gap: 150px;
+  row-gap: 40px;
+}
+.main article .mini-container-for-article .article_dev {
+  display: grid;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 20px;
+}
+.main article .mini-container-for-article .article_dev label {
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+}
+.main article .mini-container-for-article .article_dev select {
+  background-color: #f8f8f8;
+  border: none;
+  padding-left: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  font-family: Poppins, sans-serif;
+  width: 195px;
+  color: #818998;
+  height: 60px;
+}
+.main article .rigth-content-btn button {
+  background-color: #4e4ffa;
+  width: 160px;
+  height: 60px;
+  border-radius: 3px;
+  border: none;
+  position: relative;
+  margin-left: -200px;
+  top: -44px;
+  color: white;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+}/*# sourceMappingURL=Global.css.map */
