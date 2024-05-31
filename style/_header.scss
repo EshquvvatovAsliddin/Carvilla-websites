@@ -1,10 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(7, 44, 100);
-    padding-bottom: 200px;
-}
-
 .header {
     font-family: $popins-font;
     background-color: #808080;
@@ -55,6 +48,8 @@ body {
                 }
             }
         }
+
+
     }
 
     * {
@@ -88,111 +83,6 @@ body {
             font-family: $popins-font;
             font-size: 16px;
             margin-top: 43px;
-        }
-    }
-    @media only screen and (max-width: 1310px) {
-
-        nav{
-            .container{
-                gap: 0 !important;
-            }
-        }
-
-
-        .nav_left{
-            margin-left: 5%;
-            a{
-                font-size: 70px;
-            }
-        }
-        .nav_right{
-            ul{
-                display: none !important;
-            }
-        }
-    }
-    @media only screen and (max-width: 440px) {
-        .nav_left{
-            margin-left: 5%;
-            a{
-                font-size: 40px;
-            }
-        }
-        .landing-page-info{
-            h3{
-                font-size: 30px;
-            }
-            button{
-                width: 180px;
-                height: 50px;
-                font-size: 14px;
-                margin-top: 30px;
-            }
-        }
-    }
-}
-
-.main {
-    width: 100%;
-
-    article {
-        justify-content: center;
-        display: grid;
-        grid-template-columns: auto auto;
-        color: black;
-        background-color: white;
-
-        .mini-container-for-article {
-            display: grid;
-            width: 1140px !important;
-            padding: 40px;
-            padding-right: 170px !important;
-            background-color: white;
-            border-radius: 3px;
-            margin-top: -190px;
-            box-shadow: 0 10px 40px 0 rgba(38, 40, 64, .2);
-            grid-template-columns: auto auto auto;
-            column-gap: 150px;
-            row-gap: 40px;
-
-            .article_dev {
-                display: grid;
-                width: max-content;
-                gap: 20px;
-
-                label {
-                    font-family: $popins-font;
-                    font-size: 17px;
-                }
-
-                select {
-                    background-color: #f8f8f8;
-                    border: none;
-                    padding-left: 10px;
-                    font-size: 18px;
-                    border-radius: 3px;
-                    font-family: $popins-font;
-                    width: 195px;
-                    color: $paragraph-color-and-footer;
-                    height: 60px;
-                }
-            }
-        }
-
-        .rigth-content-btn {
-            button {
-                background-color: $main-blue;
-                width: 160px;
-                height: 60px;
-                border-radius: 3px;
-                border: none;
-                position: relative;
-                margin-left: -200px;
-                top: -44px;
-                color: white;
-                font-size: 16px;
-                font-family: $popins-font;
-            }
         }
     }
 }
